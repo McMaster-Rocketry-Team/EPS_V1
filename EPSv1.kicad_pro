@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -594,6 +594,18 @@
     [
       "b43a13e0-fb46-41c2-b610-4837c97a9ae2",
       "MCP73831_2"
+    ],
+    [
+      "7c95346c-8e02-4602-a7fa-319babf63927",
+      "LM66200_1"
+    ],
+    [
+      "ba3c3b19-82c2-46ed-8aa1-9c2c518efa44",
+      "LM66200_2"
+    ],
+    [
+      "4efb8ab3-6299-4c47-a3d6-e147e289017f",
+      "LM66200_3"
     ]
   ],
   "text_variables": {}
