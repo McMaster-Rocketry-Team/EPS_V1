@@ -635,6 +635,14 @@
     [
       "1de4be1f-e3cc-4463-a609-d6709bdbcf35",
       "LM66200_6"
+    ],
+    [
+      "a84d95fe-b9be-4765-82ee-4700d1a0c14d",
+      "Reverse_Polarity"
+    ],
+    [
+      "3a491354-fd14-404f-bfe4-727900531387",
+      "TPS63070_3.3V"
     ]
   ],
   "text_variables": {}
