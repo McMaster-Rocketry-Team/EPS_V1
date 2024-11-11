@@ -131,7 +131,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -440,7 +440,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Rocketry_Manual",
+      "Rocketry_Easyeda"
+    ],
     "pinned_symbol_libs": [
       "Rocketry_Easyeda",
       "Rocketry_Manual"
@@ -650,6 +653,22 @@
     [
       "6e2a5fe0-429e-4076-8476-90590336a78a",
       "TPS63070_5V"
+    ],
+    [
+      "3263bd3e-1689-41b3-baf9-71fb2d944a6b",
+      "INA199_1"
+    ],
+    [
+      "318efe62-29b8-42d0-b5fb-0df2aae93ba9",
+      "INA199_2"
+    ],
+    [
+      "57cda997-51d1-4a99-814d-16c878b9a1b1",
+      "INA199_3"
+    ],
+    [
+      "af831d8b-582d-46cc-acd1-685ce56b6776",
+      "TPS63070_9V"
     ]
   ],
   "text_variables": {}
