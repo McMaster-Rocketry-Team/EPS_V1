@@ -611,6 +611,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -906,149 +1042,6 @@
 					)
 				)
 				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL10A106KP8NNNC (10uF 0603)"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Rocketry_Easyeda:C0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C19702"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL10A106KP8NNNC (10uF 0603)_0_1"
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2542,46 +2535,22 @@
 		(uuid "01850503-ad2b-4e97-b651-c90c6c61b63c")
 	)
 	(junction
-		(at 127 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03e18aaf-5b39-4727-a81e-cd5644d948a7")
-	)
-	(junction
-		(at 106.68 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "091f3d5f-b12c-4824-b830-1418e7707ef7")
-	)
-	(junction
 		(at 262.89 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f4424ec-7ec8-44a7-b519-767dd0c5730a")
 	)
 	(junction
-		(at 146.05 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12874bcf-c4d7-49f7-9134-abecf7aec56f")
-	)
-	(junction
-		(at 116.84 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f0dec35-5be1-4b76-8630-3d08ddd6d88c")
-	)
-	(junction
-		(at 156.21 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fde51a8-f7c7-41b4-bbb9-ed909f2b521c")
-	)
-	(junction
 		(at 30.48 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25843171-6a23-49ce-8867-2a2fbfc84a74")
+	)
+	(junction
+		(at 148.59 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2702047d-a7e9-4e69-bf4a-83a7792894d7")
 	)
 	(junction
 		(at 234.95 59.69)
@@ -2614,40 +2583,16 @@
 		(uuid "4ac1a61a-2212-493c-9c40-75d5922b3d91")
 	)
 	(junction
-		(at 121.92 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b05833f-4b38-4eb7-8d90-1553421612b0")
-	)
-	(junction
-		(at 121.92 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53524655-1083-45e0-8f4f-2b0483eb1ac4")
-	)
-	(junction
 		(at 54.61 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5448d569-6c78-4743-9945-aa4008d1112a")
 	)
 	(junction
-		(at 111.76 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b8d4027-f060-4f88-ba46-d68cd90226ec")
-	)
-	(junction
 		(at 205.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d25d422-0758-4a4a-b9f4-d32decd0f11d")
-	)
-	(junction
-		(at 127 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d468e7b-9956-404e-b13e-50678b971810")
 	)
 	(junction
 		(at 120.65 55.88)
@@ -2674,34 +2619,10 @@
 		(uuid "6738b569-2033-4e19-aeaa-58b847cdea77")
 	)
 	(junction
-		(at 151.13 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72f6ef69-b94f-4d63-abc3-cf2897bc81e6")
-	)
-	(junction
-		(at 156.21 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "776e01e2-5786-49ba-8c0c-bdc0bcd246ac")
-	)
-	(junction
-		(at 161.29 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a0ada55-1c32-433e-bb63-fc16133bf8c7")
-	)
-	(junction
 		(at 288.29 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b8a8c0f-ffbf-439f-9cf1-feec4d4976e0")
-	)
-	(junction
-		(at 140.97 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a4b23af-15f7-4938-9adf-48401b64dbd8")
 	)
 	(junction
 		(at 29.21 193.04)
@@ -2710,28 +2631,16 @@
 		(uuid "8c6e32c6-7c0d-479a-a74a-c71c59fd874f")
 	)
 	(junction
-		(at 111.76 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92896945-f4be-4cc8-b4f6-ef0b6012e4c2")
-	)
-	(junction
-		(at 140.97 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92fa506a-6cb0-4247-8339-c9bebdcb0118")
-	)
-	(junction
-		(at 116.84 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95426e90-816f-49f1-aba9-d80c20a18fde")
-	)
-	(junction
 		(at 274.32 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a20bbee1-a659-4b2b-a77e-15c575b9132b")
+	)
+	(junction
+		(at 161.29 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a895f492-55b3-47c2-a253-7f078939bf9c")
 	)
 	(junction
 		(at 302.26 67.31)
@@ -2782,22 +2691,10 @@
 		(uuid "cef635ee-1aff-47ab-b3ac-df48a10b0630")
 	)
 	(junction
-		(at 161.29 167.64)
+		(at 161.29 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d17d37b9-05bb-4cd9-a6fc-ad1867d3e03c")
-	)
-	(junction
-		(at 151.13 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4f4aaa5-2a1d-42ab-bb19-23f3ae75221a")
-	)
-	(junction
-		(at 146.05 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fca7cdd0-fb21-4cb1-96c4-7704227ac288")
+		(uuid "d50d9073-ac8f-4288-acb3-69ab086fa47c")
 	)
 	(wire
 		(pts
@@ -2911,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 157.48) (xy 177.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102c7819-141b-430d-ba56-e13e6c3a6ee7")
+	)
+	(wire
+		(pts
 			(xy 259.08 71.12) (xy 259.08 72.39)
 		)
 		(stroke
@@ -3001,6 +2908,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 167.64) (xy 161.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250db27b-7f7f-4ef8-a94b-157f572c3111")
+	)
+	(wire
+		(pts
+			(xy 160.02 157.48) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253d9e33-e79c-40f0-b5b7-ace64b4146a4")
+	)
+	(wire
+		(pts
 			(xy 77.47 43.18) (xy 85.09 43.18)
 		)
 		(stroke
@@ -3008,6 +2935,16 @@
 			(type default)
 		)
 		(uuid "257c3c1f-04ba-4c1d-a648-4a22201a6c83")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48) (xy 161.29 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266946df-ca3e-42af-a126-631505e87ffb")
 	)
 	(wire
 		(pts
@@ -3141,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 177.8) (xy 127 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a2edb85-0b85-48f5-be1b-62eaaf7e457c")
-	)
-	(wire
-		(pts
 			(xy 321.31 135.89) (xy 337.82 135.89)
 		)
 		(stroke
@@ -3208,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "451e74a0-5dd9-4c82-b095-84e43d91e19b")
-	)
-	(wire
-		(pts
-			(xy 121.92 167.64) (xy 127 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452d5689-e473-4515-bae8-4ab2b95a133f")
 	)
 	(wire
 		(pts
@@ -3281,16 +3198,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 167.64) (xy 129.54 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57315039-3743-4a80-be9d-a59b67450605")
-	)
-	(wire
-		(pts
 			(xy 360.68 189.23) (xy 360.68 191.77)
 		)
 		(stroke
@@ -3298,16 +3205,6 @@
 			(type default)
 		)
 		(uuid "5781b8d1-5042-4f50-840b-73717a36a3d9")
-	)
-	(wire
-		(pts
-			(xy 146.05 177.8) (xy 151.13 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bae7db-5c26-4c93-a0ba-04cf9cc17331")
 	)
 	(wire
 		(pts
@@ -3361,13 +3258,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 167.64) (xy 156.21 167.64)
+			(xy 163.83 167.64) (xy 161.29 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bf2dfe8-0340-4872-95d6-d279e3009551")
+		(uuid "5c0aeca6-d33e-4538-bcc0-4d079cee8768")
 	)
 	(wire
 		(pts
@@ -3411,23 +3308,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 153.67) (xy 177.8 153.67)
+			(xy 161.29 167.64) (xy 161.29 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62a94e22-f3b0-48f6-bfb4-38520fb1ca20")
-	)
-	(wire
-		(pts
-			(xy 151.13 177.8) (xy 156.21 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6437b6c7-92ef-4ce2-a3f1-6af006960c59")
+		(uuid "63c306a6-1577-4905-8fc3-ea0c2fcdc7d2")
 	)
 	(wire
 		(pts
@@ -3438,16 +3325,6 @@
 			(type default)
 		)
 		(uuid "658e3be1-711a-409a-860a-57cf2d7707b4")
-	)
-	(wire
-		(pts
-			(xy 140.97 177.8) (xy 146.05 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66123bd6-6759-4bf6-9f78-05890167088c")
 	)
 	(wire
 		(pts
@@ -3491,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 177.8) (xy 116.84 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7261d8b6-8740-45cf-824a-1de1c8a36333")
-	)
-	(wire
-		(pts
 			(xy 256.54 71.12) (xy 259.08 71.12)
 		)
 		(stroke
@@ -3531,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 177.8) (xy 161.29 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78382598-c5b8-4502-a5b4-504c7a9f7cd8")
-	)
-	(wire
-		(pts
 			(xy 259.08 67.31) (xy 256.54 67.31)
 		)
 		(stroke
@@ -3551,16 +3408,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 167.64) (xy 166.37 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e0d630-b3e1-4d09-9587-bbff4e0ca9ef")
-	)
-	(wire
-		(pts
 			(xy 321.31 160.02) (xy 337.82 160.02)
 		)
 		(stroke
@@ -3568,6 +3415,16 @@
 			(type default)
 		)
 		(uuid "79bc7429-7e95-4e1d-a1f2-cfc9122c4edc")
+	)
+	(wire
+		(pts
+			(xy 148.59 157.48) (xy 149.86 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bf2dff-686a-45d0-b5f4-b57df206bf90")
 	)
 	(wire
 		(pts
@@ -3598,16 +3455,6 @@
 			(type default)
 		)
 		(uuid "81983301-d7a0-45b0-a600-0b81e4fe7c50")
-	)
-	(wire
-		(pts
-			(xy 111.76 167.64) (xy 116.84 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86436df0-71de-4623-b74e-a8c0aac4ecb9")
 	)
 	(wire
 		(pts
@@ -3651,13 +3498,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 167.64) (xy 140.97 167.64)
+			(xy 173.99 151.13) (xy 173.99 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e44238a-ba4c-403f-9ae8-cec4608152f0")
+		(uuid "8af21789-63f1-4847-8fad-06c42e039e73")
 	)
 	(wire
 		(pts
@@ -3698,16 +3545,6 @@
 			(type default)
 		)
 		(uuid "90426266-1a4d-4ca5-a0c6-ebeb4695ecbc")
-	)
-	(wire
-		(pts
-			(xy 166.37 153.67) (xy 166.37 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936644b8-8d65-4156-a40e-5d513a018aa8")
 	)
 	(wire
 		(pts
@@ -3771,16 +3608,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 167.64) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a33120b-80c1-4b80-a1f6-3de1298cfe37")
-	)
-	(wire
-		(pts
 			(xy 151.13 40.64) (xy 157.48 40.64)
 		)
 		(stroke
@@ -3831,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 167.64) (xy 111.76 167.64)
+			(xy 146.05 157.48) (xy 148.59 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3841,13 +3668,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 177.8) (xy 140.97 177.8)
+			(xy 163.83 168.91) (xy 163.83 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8122088-5a6d-4609-a26d-40136505f1c7")
+		(uuid "a84091fc-831a-4ba1-9691-ecda3f222bf3")
 	)
 	(wire
 		(pts
@@ -3961,26 +3788,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 167.64) (xy 121.92 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd9e7e7a-0666-4c9f-ae35-90479f036dc0")
-	)
-	(wire
-		(pts
-			(xy 171.45 177.8) (xy 161.29 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9740e2-d6b7-4381-8c0e-96a59f6519c8")
-	)
-	(wire
-		(pts
 			(xy 157.48 48.26) (xy 154.94 48.26)
 		)
 		(stroke
@@ -3998,6 +3805,16 @@
 			(type default)
 		)
 		(uuid "c01ff0fa-083d-4c37-b913-61b3a55cbb2c")
+	)
+	(wire
+		(pts
+			(xy 148.59 157.48) (xy 148.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c096af56-ad62-48c5-876f-6aec0b67327e")
 	)
 	(wire
 		(pts
@@ -4141,36 +3958,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 167.64) (xy 161.29 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8115474-d707-49c5-b4e6-adbe570bd519")
-	)
-	(wire
-		(pts
-			(xy 106.68 177.8) (xy 111.76 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e820fc6d-95c2-4fba-aa9d-0ace3b39e83d")
-	)
-	(wire
-		(pts
-			(xy 116.84 177.8) (xy 121.92 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83be985-aa4e-4e97-8dbd-b27c79026a43")
-	)
-	(wire
-		(pts
 			(xy 359.41 165.1) (xy 359.41 167.64)
 		)
 		(stroke
@@ -4178,6 +3965,16 @@
 			(type default)
 		)
 		(uuid "e860a6c0-f9ac-45db-aba4-c5eed6b7e5e8")
+	)
+	(wire
+		(pts
+			(xy 173.99 154.94) (xy 177.8 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f030d6-bc61-4e00-9b92-7b36b4215bab")
 	)
 	(wire
 		(pts
@@ -4271,6 +4068,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 167.64) (xy 148.59 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b83800-d55a-4c8e-afac-d8a97c489bf3")
+	)
+	(wire
+		(pts
 			(xy 26.67 213.36) (xy 29.21 213.36)
 		)
 		(stroke
@@ -4278,16 +4085,6 @@
 			(type default)
 		)
 		(uuid "f9b163fb-75f0-4317-a232-13bb11f5cc75")
-	)
-	(wire
-		(pts
-			(xy 146.05 167.64) (xy 151.13 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae4823b-0cb7-47f3-951f-56ac0de6e96b")
 	)
 	(text_box "Battery voltage monitoring"
 		(exclude_from_sim no)
@@ -5074,43 +4871,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 116.84 172.72 90)
+		(lib_id "Device:C")
+		(at 148.59 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03536e35-668c-41cf-82f0-3d4b538f356b")
-		(property "Reference" "C3"
-			(at 115.57 180.34 90)
+		(fields_autoplaced yes)
+		(uuid "05531401-19c1-4f98-bec7-d58f933baae6")
+		(property "Reference" "C1"
+			(at 152.4 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10uF 0603"
-			(at 115.57 182.88 90)
+		(property "Value" "47uF"
+			(at 152.4 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 124.46 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 127 172.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.5552 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,8 +4907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 172.72 0)
+		(property "Datasheet" "~"
+			(at 148.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,8 +4916,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19702"
-			(at 129.54 172.72 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,15 +4926,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd69ae9e-d239-4485-9899-60d49d3c8b23")
+			(uuid "850967ca-bb0a-4a9c-b512-c0d3294b84f2")
 		)
 		(pin "2"
-			(uuid "ef5da15a-b3ea-4f3a-80ec-6294b999e76f")
+			(uuid "d016cfd2-a609-44a7-b744-8fb29d5b7f47")
 		)
 		(instances
-			(project "EPSv1"
+			(project ""
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5278,84 +5067,6 @@
 			(project "EPSv1"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 127 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0dd1120f-ada7-4e72-b9e6-d3d88c83bf3e")
-		(property "Reference" "C5"
-			(at 125.73 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 125.73 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 137.16 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 139.7 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2259e475-73e3-4235-b98a-0b23e02ceabb")
-		)
-		(pin "2"
-			(uuid "39c4ff6b-1b0c-40f5-9772-3657e30e7377")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5627,86 +5338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 111.76 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19918e80-b59c-4f04-a403-0e608e608b1b")
-		(property "Reference" "C2"
-			(at 110.257 162.3921 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 110.257 164.9321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 119.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 124.46 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "249658fa-798d-41f7-a56c-e8b2ce1f9b26")
-		)
-		(pin "2"
-			(uuid "a9784212-92e2-4c2c-a5db-0f04f84385d6")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 171.45 177.8 0)
+		(at 163.83 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5715,7 +5348,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e3bd820-810f-406f-964c-e79d779501f2")
 		(property "Reference" "#PWR014"
-			(at 171.45 184.15 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 182.88 0)
+			(at 163.83 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 177.8 0)
+			(at 163.83 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 177.8 0)
+			(at 163.83 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 177.8 0)
+			(at 163.83 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_1053091102"
+		(property "Footprint" "Rocketry_Manual:CON_1053091102"
 			(at 368.3 184.15 0)
 			(effects
 				(font
@@ -5910,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 106.68 167.64 0)
+		(at 146.05 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5919,7 +5552,7 @@
 		(fields_autoplaced yes)
 		(uuid "22641e44-883b-4506-ac11-161213b34e4f")
 		(property "Reference" "#PWR09"
-			(at 106.68 171.45 0)
+			(at 146.05 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +5561,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.68 162.56 0)
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 167.64 0)
+			(at 146.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 167.64 0)
+			(at 146.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 106.68 167.64 0)
+			(at 146.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,16 +5689,16 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 177.8 156.21 90)
+		(at 173.99 151.13 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2827aaff-02c2-4385-9ec4-30354f5f44f5")
 		(property "Reference" "#PWR015"
-			(at 181.61 156.21 0)
+			(at 173.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5707,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.99 156.2099 90)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 156.21 0)
+			(at 173.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +5725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 156.21 0)
+			(at 173.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +5734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 177.8 156.21 0)
+			(at 173.99 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +5782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_1053091102"
+		(property "Footprint" "Rocketry_Manual:CON_1053091102"
 			(at 368.3 135.89 0)
 			(effects
 				(font
@@ -6533,84 +6166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 161.29 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b960465-cfc2-4241-8ed6-c36bbef572c7")
-		(property "Reference" "C10"
-			(at 160.02 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 160.02 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 168.91 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 171.45 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 173.99 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b383824-8ec1-40c1-8494-2b44480154cd")
-		)
-		(pin "2"
-			(uuid "e639aa74-152d-4019-a8de-36813a70b76b")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 308.61 67.31 0)
 		(unit 1)
@@ -6704,7 +6259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_5037630491"
+		(property "Footprint" "Rocketry_Manual:CON_5037630491"
 			(at 202.438 116.84 0)
 			(effects
 				(font
@@ -7087,7 +6642,7 @@
 	)
 	(symbol
 		(lib_id "Rocketry_Easyeda:FTC252012S1R5MBCA (1.5uF 2.9A)")
-		(at 134.62 167.64 0)
+		(at 154.94 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7096,7 +6651,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fa615af-4465-4bb6-bded-e3f184eb343d")
 		(property "Reference" "L1"
-			(at 134.62 161.29 0)
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +6659,7 @@
 			)
 		)
 		(property "Value" "1.5uF 2.9A"
-			(at 134.62 163.83 0)
+			(at 154.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +6667,7 @@
 			)
 		)
 		(property "Footprint" "Rocketry_Easyeda:IND-SMD_L2.5-W2.0_MEKK2520TR47M"
-			(at 134.62 175.26 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +6676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 167.64 0)
+			(at 154.94 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +6685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 167.64 0)
+			(at 154.94 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +6694,7 @@
 			)
 		)
 		(property "LCSC Part" "C5832371"
-			(at 134.62 177.8 0)
+			(at 154.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,84 +6911,6 @@
 			(project "EPSv1"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 151.13 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63bfcfab-9be6-45d0-94e7-51c99910ce2b")
-		(property "Reference" "C8"
-			(at 149.86 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 149.86 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 161.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 163.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4214c0bb-618e-4b9c-84a6-8d5bcdf881b7")
-		)
-		(pin "2"
-			(uuid "a51cc6de-f16e-4666-95e3-3505da01289f")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7849,84 +7326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 146.05 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7591c24d-701a-43b2-a215-77db648c042d")
-		(property "Reference" "C7"
-			(at 144.547 162.3921 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 144.547 164.9321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 153.67 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 156.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 158.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91d13934-4398-4b8d-90e7-29a5421190e8")
-		)
-		(pin "2"
-			(uuid "5cdb49cb-ace6-43c5-84e9-a62b6eae509d")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 34.29 210.82 0)
 		(unit 1)
@@ -8191,162 +7590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 121.92 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "836ffae6-b49e-4478-8cdf-0ae0d7dfb739")
-		(property "Reference" "C4"
-			(at 120.417 162.3921 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 120.417 164.9321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 129.54 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 132.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "757f4339-5a43-4cab-a5bc-332ea23cd36a")
-		)
-		(pin "2"
-			(uuid "a3164510-c590-4049-939e-05c133e18f2b")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 140.97 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84bedf21-6680-4e4d-964a-7688b819e34a")
-		(property "Reference" "C6"
-			(at 139.7 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 139.7 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 148.59 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 151.13 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 153.67 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ccaef14-472f-45ef-9d36-ebc45569f940")
-		)
-		(pin "2"
-			(uuid "3f750f9d-9b7a-43a2-a007-bf2680dcdf5b")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 259.08 72.39 0)
 		(unit 1)
@@ -8407,6 +7650,76 @@
 			(project "EPSv1"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879db896-ba26-44bc-b542-29e4a575c215")
+		(property "Reference" "C2"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 165.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.2552 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37d6cc0f-9762-493a-98ac-f53879da3093")
+		)
+		(pin "2"
+			(uuid "72719e6e-0cd7-415f-997f-582054c7eb64")
+		)
+		(instances
+			(project "EPSv2"
+				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9183,84 +8496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 106.68 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afcb6fed-3538-463c-8007-bd56cecdffc7")
-		(property "Reference" "C1"
-			(at 105.41 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 105.41 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 114.3 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 119.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79551049-8955-44ce-a183-d2125c2d9296")
-		)
-		(pin "2"
-			(uuid "08d4b673-15cd-42a4-b789-af598d6d2e32")
-		)
-		(instances
-			(project ""
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 259.08 54.61 0)
 		(unit 1)
@@ -9804,84 +9039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Rocketry_Easyeda:CL10A106KP8NNNC (10uF 0603)")
-		(at 156.21 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce8acd98-77cd-4179-8c71-44f82aa24f58")
-		(property "Reference" "C9"
-			(at 154.707 162.3921 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF 0603"
-			(at 154.707 164.9321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Rocketry_Easyeda:C0603"
-			(at 163.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106KP8NNNC_10uF-106-10-10V_C19702.html"
-			(at 166.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 168.91 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edf18563-86a4-4d69-af99-b322af16c7c8")
-		)
-		(pin "2"
-			(uuid "0256c75e-d0cf-4019-829e-c025eaef0170")
-		)
-		(instances
-			(project "EPSv1"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
 		(at 295.91 135.89 0)
 		(unit 1)
@@ -10384,7 +9541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_1053091102"
+		(property "Footprint" "Rocketry_Manual:CON_1053091102"
 			(at 368.3 160.02 0)
 			(effects
 				(font
@@ -10456,7 +9613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON_5037630491"
+		(property "Footprint" "Rocketry_Manual:CON_5037630491"
 			(at 168.148 116.84 0)
 			(effects
 				(font
@@ -12267,7 +11424,7 @@
 			(uuid "dd464b6a-80b0-4feb-82e4-e8009bee4120")
 		)
 		(pin "+3V3A" input
-			(at 177.8 153.67 180)
+			(at 177.8 157.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,7 +11434,7 @@
 			(uuid "3df75705-06eb-4887-9d45-0b4ac3c4ef40")
 		)
 		(pin "I2C1_SCL" bidirectional
-			(at 177.8 161.29 180)
+			(at 177.8 165.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12287,7 +11444,7 @@
 			(uuid "7e7c804e-926e-4186-a1a3-06101ebbe2bc")
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 177.8 163.83 180)
+			(at 177.8 167.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12347,7 +11504,7 @@
 			(uuid "78c662aa-e820-42f2-bb84-af4ee008edb3")
 		)
 		(pin "+3V3" input
-			(at 177.8 156.21 180)
+			(at 177.8 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)

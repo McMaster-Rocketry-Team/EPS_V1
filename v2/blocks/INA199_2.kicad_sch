@@ -663,7 +663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85390b8d-f1cc-4e59-958d-ae599c70011c")
-		(property "Reference" "C38"
+		(property "Reference" "C30"
 			(at 93.98 88.9 90)
 			(effects
 				(font
@@ -726,7 +726,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/318efe62-29b8-42d0-b5fb-0df2aae93ba9"
-					(reference "C38")
+					(reference "C30")
 					(unit 1)
 				)
 			)

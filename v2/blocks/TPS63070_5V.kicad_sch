@@ -4072,7 +4072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bbefa45-f493-40b6-968a-a1769a8946d5")
-		(property "Reference" "C35"
+		(property "Reference" "C27"
 			(at 212.09 87.6299 90)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C35")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8d7ffa-98b0-43e8-a778-f2994ccd2f16")
-		(property "Reference" "C34"
+		(property "Reference" "C26"
 			(at 194.31 87.6299 90)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C34")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d967a27-128f-4d47-a29e-2d3bf33fc27c")
-		(property "Reference" "C32"
+		(property "Reference" "C24"
 			(at 68.4746 87.6299 90)
 			(effects
 				(font
@@ -4293,7 +4293,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C32")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4309,7 +4309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c23def0-1f04-4772-af61-da45a7d6b58b")
-		(property "Reference" "C30"
+		(property "Reference" "C22"
 			(at 32.8994 87.6299 90)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C30")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4388,7 +4388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e9f12a8-e7c9-45fe-b829-e0db19274351")
-		(property "Reference" "C33"
+		(property "Reference" "C25"
 			(at 86.36 120.6499 90)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C33")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c33d84d1-d3dd-455d-a467-d1c4dfbf54ed")
-		(property "Reference" "C31"
+		(property "Reference" "C23"
 			(at 50.8 87.6299 90)
 			(effects
 				(font
@@ -4960,7 +4960,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C31")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5053,7 +5053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eecc7f21-fd4e-4f42-8899-2866f175b0e2")
-		(property "Reference" "C36"
+		(property "Reference" "C28"
 			(at 229.87 87.6299 90)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/6e2a5fe0-429e-4076-8476-90590336a78a"
-					(reference "C36")
+					(reference "C28")
 					(unit 1)
 				)
 			)

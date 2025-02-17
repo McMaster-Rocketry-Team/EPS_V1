@@ -5931,7 +5931,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/b43a13e0-fb46-41c2-b610-4837c97a9ae2"
-					(reference "C15")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6020,7 +6020,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/b43a13e0-fb46-41c2-b610-4837c97a9ae2"
-					(reference "C16")
+					(reference "C8")
 					(unit 1)
 				)
 			)
