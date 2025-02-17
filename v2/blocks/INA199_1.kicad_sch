@@ -152,7 +152,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "L"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -662,7 +662,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/3263bd3e-1689-41b3-baf9-71fb2d944a6b"
-					(reference "U15")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/57cda997-51d1-4a99-814d-16c878b9a1b1"
@@ -835,7 +835,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/3263bd3e-1689-41b3-baf9-71fb2d944a6b"
-					(reference "U14")
+					(reference "L4")
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/57cda997-51d1-4a99-814d-16c878b9a1b1"

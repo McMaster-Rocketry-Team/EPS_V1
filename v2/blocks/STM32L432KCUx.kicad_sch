@@ -4646,7 +4646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57adf6f3-56be-4545-86c6-13b7462d8d75")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4729,7 +4729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c120a5f-f5d5-4714-ab07-c8d56da40f66")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 197.7741 100.33 0)
 			(effects
 				(font
@@ -4877,7 +4877,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
