@@ -4305,6 +4305,18 @@
 		)
 		(uuid "5b1dee8a-760f-45bc-bdbd-407afd70c240")
 	)
+	(hierarchical_label "PB6"
+		(shape bidirectional)
+		(at 182.88 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65d5894c-c5a1-4ab6-845b-b49d05909665")
+	)
 	(hierarchical_label "PA5"
 		(shape bidirectional)
 		(at 208.28 67.31 0)
@@ -4317,6 +4329,42 @@
 		)
 		(uuid "79462314-ac3c-4035-9273-682074c46879")
 	)
+	(hierarchical_label "PB4"
+		(shape bidirectional)
+		(at 182.88 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9afcaf8d-a0bd-462e-9ca0-6c039cb9419f")
+	)
+	(hierarchical_label "PB5"
+		(shape bidirectional)
+		(at 182.88 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d74999a-e8b6-4379-8a71-dea9b600995e")
+	)
+	(hierarchical_label "PB7"
+		(shape bidirectional)
+		(at 182.88 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb1edbd5-a7eb-4782-b21e-b09fca79ced9")
+	)
 	(hierarchical_label "PA0"
 		(shape bidirectional)
 		(at 208.28 54.61 0)
@@ -4328,6 +4376,18 @@
 			(justify left)
 		)
 		(uuid "d5c5d295-6156-47a6-9e95-d01ce3d7c007")
+	)
+	(hierarchical_label "PB3"
+		(shape bidirectional)
+		(at 182.88 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6b71118-8901-4b6b-ae9a-d447ceea5ea0")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
@@ -4476,7 +4536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373cdedf-9b74-4315-bade-f7fecbace96d")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 168.91 43.18 90)
 			(effects
 				(font
@@ -4539,7 +4599,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "410ac573-c910-48bb-9fea-8c6aa917a8b3")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 184.15 43.18 90)
 			(effects
 				(font
@@ -4624,7 +4684,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4646,7 +4706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57adf6f3-56be-4545-86c6-13b7462d8d75")
-		(property "Reference" "R23"
+		(property "Reference" "R26"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -4707,7 +4767,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "R23")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4899,7 +4959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6cf9a8-b21f-4f8d-81ac-9a3e899bc3bd")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 154.94 44.45 90)
 			(effects
 				(font
@@ -4962,7 +5022,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4984,7 +5044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c149989c-39e7-4ac3-a021-b400b8ca504a")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 220.98 43.18 90)
 			(effects
 				(font
@@ -5047,7 +5107,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee46bb79-fce2-4290-9cfe-e123754a0ee5")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 205.74 41.91 90)
 			(effects
 				(font
@@ -5132,7 +5192,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9cd5b0-b64d-4248-abde-293b9e6edba3")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 237.49 41.91 90)
 			(effects
 				(font
@@ -5217,7 +5277,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
