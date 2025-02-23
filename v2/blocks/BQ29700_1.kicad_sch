@@ -2682,7 +2682,6 @@
 	(hierarchical_label "PACK+"
 		(shape bidirectional)
 		(at 38.1 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2694,7 +2693,6 @@
 	(hierarchical_label "CELL+"
 		(shape bidirectional)
 		(at 146.05 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2704,6 @@
 	(hierarchical_label "PACK-"
 		(shape bidirectional)
 		(at 38.1 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2718,7 +2715,6 @@
 	(hierarchical_label "CELL-"
 		(shape bidirectional)
 		(at 146.05 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3785,7 +3785,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 118.11 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3797,7 +3796,6 @@
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 248.92 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3807,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 118.11 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3821,7 +3818,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 166.37 109.22 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3833,7 +3829,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 90.17 127 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3845,7 +3840,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 233.68 93.98 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3857,7 +3851,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 118.11 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3862,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 90.17 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3881,7 +3873,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 134.62 104.14 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3893,7 +3884,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 36.83 93.98 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3905,7 +3895,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 33.02 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4072,7 +4061,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R46")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -4155,7 +4144,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C38")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4227,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C33")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53aea9a3-fc96-4077-97db-33f993c811b0")
-		(property "Reference" "R50"
+		(property "Reference" "R57"
 			(at 154.94 95.25 90)
 			(effects
 				(font
@@ -4317,7 +4306,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R50")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4389,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R48")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4509,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4669,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R49")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -4763,7 +4752,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4835,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4929,7 +4918,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5012,7 +5001,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C35")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5084,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R47")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baa4cc19-00b3-49a9-babd-256c6020e0ef")
-		(property "Reference" "R51"
+		(property "Reference" "R58"
 			(at 168.91 90.17 90)
 			(effects
 				(font
@@ -5174,7 +5163,7 @@
 		(instances
 			(project ""
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "R51")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -5257,7 +5246,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/af831d8b-582d-46cc-acd1-685ce56b6776"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 			)
