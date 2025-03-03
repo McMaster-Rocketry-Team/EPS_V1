@@ -4067,6 +4067,7 @@
 	)
 	(label "SWDIO"
 		(at 123.19 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,6 +4078,7 @@
 	)
 	(label "GND"
 		(at 123.19 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,6 +4089,7 @@
 	)
 	(label "GND"
 		(at 227.33 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4097,6 +4100,7 @@
 	)
 	(label "SWDIO"
 		(at 208.28 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,6 +4111,7 @@
 	)
 	(label "GND"
 		(at 195.58 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4117,6 +4122,7 @@
 	)
 	(label "GND"
 		(at 157.48 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4127,6 +4133,7 @@
 	)
 	(label "nRST"
 		(at 182.88 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4137,6 +4144,7 @@
 	)
 	(label "SWDCLK"
 		(at 123.19 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,6 +4155,7 @@
 	)
 	(label "GND"
 		(at 165.1 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,6 +4166,7 @@
 	)
 	(label "nRST"
 		(at 123.19 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4167,6 +4177,7 @@
 	)
 	(label "SWDCLK"
 		(at 208.28 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4177,6 +4188,7 @@
 	)
 	(label "GND"
 		(at 55.88 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4188,6 +4200,7 @@
 	(hierarchical_label "I2C1_SCL"
 		(shape bidirectional)
 		(at 208.28 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4199,6 +4212,7 @@
 	(hierarchical_label "PB0"
 		(shape bidirectional)
 		(at 182.88 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4210,6 +4224,7 @@
 	(hierarchical_label "PA3"
 		(shape bidirectional)
 		(at 208.28 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4221,6 +4236,7 @@
 	(hierarchical_label "PB1"
 		(shape bidirectional)
 		(at 182.88 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4232,6 +4248,7 @@
 	(hierarchical_label "PA2"
 		(shape bidirectional)
 		(at 208.28 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,6 +4260,7 @@
 	(hierarchical_label "PA4"
 		(shape bidirectional)
 		(at 208.28 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4254,6 +4272,7 @@
 	(hierarchical_label "PA7"
 		(shape bidirectional)
 		(at 208.28 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4265,6 +4284,7 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 142.24 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4276,6 +4296,7 @@
 	(hierarchical_label "PB6"
 		(shape bidirectional)
 		(at 182.88 85.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4287,6 +4308,7 @@
 	(hierarchical_label "PA5"
 		(shape bidirectional)
 		(at 208.28 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4298,6 +4320,7 @@
 	(hierarchical_label "PA12"
 		(shape bidirectional)
 		(at 208.28 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4309,6 +4332,7 @@
 	(hierarchical_label "PB4"
 		(shape bidirectional)
 		(at 182.88 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4320,6 +4344,7 @@
 	(hierarchical_label "PB5"
 		(shape bidirectional)
 		(at 182.88 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4331,6 +4356,7 @@
 	(hierarchical_label "PA11"
 		(shape bidirectional)
 		(at 208.28 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4342,6 +4368,7 @@
 	(hierarchical_label "PB7"
 		(shape bidirectional)
 		(at 182.88 87.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4353,6 +4380,7 @@
 	(hierarchical_label "PA0"
 		(shape bidirectional)
 		(at 208.28 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4364,6 +4392,7 @@
 	(hierarchical_label "PB3"
 		(shape bidirectional)
 		(at 182.88 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4375,6 +4404,7 @@
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 208.28 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4386,6 +4416,7 @@
 	(hierarchical_label "+3V3A"
 		(shape input)
 		(at 236.22 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4397,6 +4428,7 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 55.88 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4408,6 +4440,7 @@
 	(hierarchical_label "PA1"
 		(shape bidirectional)
 		(at 208.28 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4419,6 +4452,7 @@
 	(hierarchical_label "PA6"
 		(shape bidirectional)
 		(at 208.28 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,7 +4487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Rocketry_Easyeda:CONN-SMD_5P-P1.25_532610571-2"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -4684,7 +4718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57adf6f3-56be-4545-86c6-13b7462d8d75")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 171.45 53.34 0)
 			(effects
 				(font
@@ -4745,7 +4779,7 @@
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/cef003e9-4e09-46ce-a170-d9263c8f93eb"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)

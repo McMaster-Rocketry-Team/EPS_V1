@@ -2682,6 +2682,7 @@
 	(hierarchical_label "CELL-"
 		(shape bidirectional)
 		(at 146.05 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2693,6 +2694,7 @@
 	(hierarchical_label "PACK-"
 		(shape bidirectional)
 		(at 38.1 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2704,6 +2706,7 @@
 	(hierarchical_label "CELL+"
 		(shape bidirectional)
 		(at 146.05 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2715,6 +2718,7 @@
 	(hierarchical_label "PACK+"
 		(shape bidirectional)
 		(at 38.1 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2800,7 +2804,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/de734f70-d171-4e6f-aff8-0ae7ad4f0a8b"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2978,7 +2982,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/de734f70-d171-4e6f-aff8-0ae7ad4f0a8b"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3260,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/de734f70-d171-4e6f-aff8-0ae7ad4f0a8b"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3345,7 +3349,7 @@
 					(unit 1)
 				)
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25/de734f70-d171-4e6f-aff8-0ae7ad4f0a8b"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
