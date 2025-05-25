@@ -1437,6 +1437,112 @@
 				)
 			)
 		)
+		(symbol "Rocketry_Easyeda:0603WAF1001T5E (1k 0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1001T5E (1k 0603)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Rocketry_Easyeda:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C21190"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1001T5E (1k 0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Rocketry_Easyeda:0603WAF4703T5E (470k 0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1527,6 +1633,173 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Rocketry_Easyeda:19-213_Y2C-CQ2R2L_3T(CY)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Rocketry_Easyeda:LED0603-RD-YELLOW"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603-Yellow-light_C72038.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C72038"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "19-213_Y2C-CQ2R2L_3T(CY)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.52) (xy -1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -2.29 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 3.05) (xy -1.27 4.83)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.29 3.81) (xy -1.27 3.3) (xy -1.78 2.79) (xy -2.29 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.83) (xy -0.25 4.32) (xy -0.76 3.81) (xy -1.27 4.83)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.52) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3648,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 241.3) (xy 111.76 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61349632-722e-4ef7-9a94-f18e15bd0307")
+	)
+	(wire
+		(pts
 			(xy 283.21 191.77) (xy 314.96 191.77)
 		)
 		(stroke
@@ -3705,6 +3988,16 @@
 			(type default)
 		)
 		(uuid "6a34827d-b09d-4c96-b077-c27876bef454")
+	)
+	(wire
+		(pts
+			(xy 121.92 207.01) (xy 121.92 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dce2105-06f6-4753-b6f5-5f827ca63571")
 	)
 	(wire
 		(pts
@@ -4385,6 +4678,16 @@
 			(type default)
 		)
 		(uuid "cb4253fa-345e-4e05-b14a-fdcb5f5af699")
+	)
+	(wire
+		(pts
+			(xy 123.19 207.01) (xy 121.92 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf92cbab-a8b3-4904-90c9-f1bafa65c205")
 	)
 	(wire
 		(pts
@@ -5701,6 +6004,85 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rocketry_Easyeda:0603WAF1001T5E (1k 0603)")
+		(at 111.76 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02bc60c7-92db-4602-8089-d85baa5e2d3b")
+		(property "Reference" "R40"
+			(at 114.3 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1001T5E (1k 0603)"
+			(at 114.3 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:R0603"
+			(at 119.38 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1KR-1001-1_C21190.html"
+			(at 121.92 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21190"
+			(at 124.46 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f246e0f3-fd7c-472b-b645-65caad596e6a")
+		)
+		(pin "1"
+			(uuid "cae4f7f6-ca3d-41e2-b728-475d3522d47b")
+		)
+		(instances
+			(project "EPSv2"
+				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
+					(reference "R40")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7139,6 +7521,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Rocketry_Easyeda:19-213_Y2C-CQ2R2L_3T(CY)")
+		(at 111.76 236.22 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ac2086d-beab-4620-a17e-7093cd2e9d59")
+		(property "Reference" "LED9"
+			(at 109.22 235.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 109.22 237.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rocketry_Easyeda:LED0603-RD-YELLOW"
+			(at 104.14 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603-Yellow-light_C72038.html"
+			(at 101.6 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C72038"
+			(at 99.06 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fca52bd0-d1d5-4975-a2a8-6f8a7595e8a2")
+		)
+		(pin "1"
+			(uuid "d54daa59-5d43-4103-a423-e33a66af29be")
+		)
+		(instances
+			(project "EPSv2"
+				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 308.61 67.31 0)
 		(unit 1)
@@ -8442,6 +8903,72 @@
 			(project ""
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6e4442-14ec-465e-8c34-cb85977c1e71")
+		(property "Reference" "#PWR042"
+			(at 111.76 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0af8e67a-43ba-4dbc-baf4-09eb55630335")
+		)
+		(instances
+			(project "EPSv2"
+				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10784,6 +11311,74 @@
 		)
 	)
 	(sheet
+		(at 280.67 82.55)
+		(size 19.05 13.335)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1dcfe74b-32f5-4e04-9dd5-74aebdc36abf")
+		(property "Sheetname" "TPS61288_+9V"
+			(at 280.67 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TPS61288_+9V.kicad_sch"
+			(at 280.67 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 299.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8dd96ca3-b3af-4e93-9b6d-39c3de4dd207")
+		)
+		(pin "GND" input
+			(at 299.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc3c516e-f30f-4f31-bb35-9fa3b9b9f8a2")
+		)
+		(pin "VIN" input
+			(at 280.67 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d1cd700-def6-4ab0-9fee-32bd584deee5")
+		)
+		(instances
+			(project "EPSv2"
+				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 185.42 67.31)
 		(size 19.05 12.7)
 		(fields_autoplaced yes)
@@ -11015,75 +11610,6 @@
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 280.67 43.18)
-		(size 19.05 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6e2a5fe0-429e-4076-8476-90590336a78a")
-		(property "Sheetname" "TPS63070_5V"
-			(at 280.67 42.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "blocks/TPS63070_5V.kicad_sch"
-			(at 280.67 56.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "GND" input
-			(at 299.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "96f04d0f-c7b0-48b3-a46f-d5fd870169cf")
-		)
-		(pin "VOUT" output
-			(at 299.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d6d4db1-adab-48c6-843c-a8bfc85474c2")
-		)
-		(pin "VIN" input
-			(at 280.67 46.99 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8c7b0ed0-7d8d-4006-823e-bd8e5bba01e9")
-		)
-		(instances
-			(project "EPSv2"
-				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(page "15")
 				)
 			)
 		)
@@ -11374,8 +11900,8 @@
 		)
 	)
 	(sheet
-		(at 280.67 83.82)
-		(size 19.05 12.7)
+		(at 280.67 42.545)
+		(size 19.05 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -11384,9 +11910,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "af831d8b-582d-46cc-acd1-685ce56b6776")
-		(property "Sheetname" "TPS63070_9V"
-			(at 280.67 83.1084 0)
+		(uuid "b2e308ca-feab-4ed0-9bd9-dd0604817736")
+		(property "Sheetname" "TPS61288_+5V"
+			(at 280.67 41.8334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,50 +11920,49 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "blocks/TPS63070_9V.kicad_sch"
-			(at 280.67 97.1046 0)
+		(property "Sheetfile" "TPS61288_+5V.kicad_sch"
+			(at 280.67 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "GND" input
-			(at 299.72 93.98 0)
+			(at 299.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "95cc737d-3c0b-402e-a051-d77718180afe")
-		)
-		(pin "VOUT" output
-			(at 299.72 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9ae47670-e082-472a-8c51-3d58262e9616")
+			(uuid "2891ef95-464f-4788-ab48-9626b71df71c")
 		)
 		(pin "VIN" input
-			(at 280.67 87.63 180)
+			(at 280.67 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf5873bc-b24c-42ef-ad3c-2b3eb8cbcac6")
+			(uuid "7375fa7c-b22d-42da-a9ac-51a3035ccb48")
+		)
+		(pin "VOUT" output
+			(at 299.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad8681a6-cfd5-49f7-9cc6-1dc503963619")
 		)
 		(instances
 			(project "EPSv2"
 				(path "/61d36b12-c329-4dd2-b08b-b63678fc7b25"
-					(page "19")
+					(page "18")
 				)
 			)
 		)
